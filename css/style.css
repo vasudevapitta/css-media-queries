@@ -1,0 +1,49 @@
+/* All styles by default - should be at the top */
+body {
+	background-color: #94D0FF;
+}
+
+li {
+	font-family: arial, 'sans-serif';
+}
+
+
+
+
+
+
+
+/* styles to be applied  when the viewport is greater than 800px and lesser than 1000px */
+@media screen and (min-width: 800px) and (max-width: 1000px){
+	body {
+	background-color: green;
+	}
+
+	li {
+		color: #fff;
+	}
+}
+
+
+/* styles to be applied  when the viewport is lesser than 800px */
+@media screen and (max-width: 800px){
+	body {
+	background-color: yellow;
+	}
+
+	li {
+		color: red;
+	}
+}
+
+
+/* styles to be applied  when the viewport is lesser than 400px */
+@media screen and (max-width: 400px){
+	body {
+	background-color: red;
+	}
+
+	li{
+		color: #fff;
+	}
+}
